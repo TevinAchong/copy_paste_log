@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Copy Paste Log</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <h1 id="content-holder">First Line</h1>
+    <h1>What is Lorem Ipsum?
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lore</h1>
+    <h1>Third Line</h1>
+    <h1>Fourth Line</h1>
+    <script src="main.js"></script>
+    <textarea placeholder="Paste Here" rows="4" cols="50"></textarea>
+
+
+    <div class="container">                                     
+        <div class="dropdown" style="display : none;" id="copy_log">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" style="z-index : 9999999999999999999999999999999999999999999999999999999999;">Choose Item to Paste 
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu" id="copy-paste-log">
+                
+            </ul>
+        </div>
+    </div>
+      
+    <script src="modal.js"></script>
+</body>
+</html>
